@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weylus</string>
+
+    <!-- Connection Screen -->
+    <string name="connection_screen_title">Connect to Weylus Server</string>
+    <string name="server_url_label">Server URL</string>
+    <string name="server_url_hint">ws://192.168.1.100:1701</string>
+    <string name="access_code_label">Access Code (optional)</string>
+    <string name="access_code_hint">Enter access code</string>
+    <string name="connect_button">Connect</string>
+    <string name="scan_qr_button">Scan QR Code</string>
+    <string name="recent_connections">Recent Connections</string>
+
+    <!-- Connection States -->
+    <string name="connecting">Connecting…</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connection_error">Connection Error: %s</string>
+
+    <!-- Capturable Screen -->
+    <string name="select_capturable">Select Screen or Window</string>
+    <string name="refresh_capturables">Refresh</string>
+    <string name="no_capturables">No screens or windows available</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="video_settings">Video Settings</string>
+    <string name="input_settings">Input Settings</string>
+    <string name="network_settings">Network Settings</string>
+    <string name="about_section">About</string>
+
+    <!-- Video Settings -->
+    <string name="max_resolution">Maximum Resolution</string>
+    <string name="max_frame_rate">Maximum Frame Rate</string>
+    <string name="video_quality">Video Quality</string>
+    <string name="quality_low">Low</string>
+    <string name="quality_medium">Medium</string>
+    <string name="quality_high">High</string>
+    <string name="quality_ultra">Ultra</string>
+
+    <!-- Input Settings -->
+    <string name="pressure_curve">Pressure Curve</string>
+    <string name="palm_rejection">Palm Rejection</string>
+    <string name="palm_rejection_sensitivity">Palm Rejection Sensitivity</string>
+
+    <!-- Network Settings -->
+    <string name="low_latency_mode">Low Latency Mode</string>
+    <string name="buffer_size">Buffer Size</string>
+
+    <!-- Video Screen -->
+    <string name="disconnect">Disconnect</string>
+    <string name="show_performance">Show Performance</string>
+    <string name="take_screenshot">Take Screenshot</string>
+
+    <!-- Performance Metrics -->
+    <string name="fps_label">FPS: %d</string>
+    <string name="latency_label">Latency: %d ms</string>
+    <string name="bitrate_label">Bitrate: %.1f Mbps</string>
+    <string name="dropped_frames_label">Dropped: %d</string>
+
+    <!-- Service -->
+    <string name="service_notification_channel_name">Weylus Connection</string>
+    <string name="service_notification_channel_description">Notifications for active Weylus connections</string>
+    <string name="service_notification_title">Connected to Weylus</string>
+    <string name="service_notification_text">Streaming from %s</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_url">Invalid server URL</string>
+    <string name="error_connection_failed">Failed to connect to server</string>
+    <string name="error_connection_lost">Connection lost</string>
+    <string name="error_video_decoder">Video decoder error</string>
+    <string name="error_permission_camera">Camera permission required for QR code scanning</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera_rationale">Camera permission is needed to scan QR codes for quick connection setup.</string>
+
+    <!-- About -->
+    <string name="version">Version %s</string>
+    <string name="app_description">Native Android client for Weylus</string>
+</resources>
