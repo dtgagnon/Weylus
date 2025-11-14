@@ -18,8 +18,8 @@ local.properties
 *.iml
 .idea/
 .gradle/
-gradle/
-!gradle/libs.versions.toml
+gradle/wrapper/
+gradle.properties.local
 
 # Build outputs
 build/
